@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="left-header">
+      <button id="toggle-sidebar">☰</button>
+      <div class="logo">Site Logo</div>
+    </div>
+    <nav class="top-nav">
+      <a href="#">Politics</a>
+      <a href="#">Business</a>
+      <a href="#">Sports</a>
+      <a href="#">Entertainment</a>
+      <a href="#">Health</a>
+      <a href="#">Technology</a>
+    </nav>
+    <div class="user-profile">
+      <input type="text" placeholder="Search" class="search-bar">
+      <img src="bell-icon.png" alt="Notifications" class="bell-icon">
+      <img src="settings-icon.png" alt="Settings" class="settings-icon">
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li><a href="homepage.html" class="active">Home</a></li>
+      <li><a href="trivia.html">Trivia</a></li>
+      <li><a href="#">Submissions</a></li>
+      <li><a href="#">Bookmarks</a></li>
+      <li><a href="#">Editorial Guidelines</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Privacy & Security</a></li>
+    </ul>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Welcome to the Homepage</h1>
+    <div id="news-container">
+      <div class="article">
+        <img src="news1.jpg" alt="News Image">
+        <h3>Sample News Title</h3>
+        <p>Sample description of the news article...</p>
+        <div class="news-options">
+          <button class="upvote">Upvote</button>
+          <button class="downvote">Downvote</button>
+          <button class="discuss">Discuss</button>
+          <button class="share">Share</button>
+        </div>
+      </div>
+      <!-- Additional news articles here -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
